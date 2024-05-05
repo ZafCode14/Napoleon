@@ -1,0 +1,13 @@
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #a85100;
+    opacity: .9;
+    color:antiquewhite;
+    padding: 10px;
+    z-index: 1;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,49 @@
+.home {
+    background-color: #f4f1eb;
+}
+.home_hero_background {
+    background-image: url("../../public/images/1024px-Retour_de_Napoleon_d\'_Isle_d\'Elbe\,_by_Charles_de_Steuben.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.darken_hero_area {
+    width: 100%;
+    background-color: rgb(0, 0, 0, .7);
+    color: #f4f1eb;
+    display: flex;
+    justify-content: center;
+}
+.inner_hero_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.inner_hero_area h1 {
+    padding: 20px;
+    margin: 80px 0 30px 0;
+    max-width: 400px;
+}
+.inner_hero_area button {
+    align-self: flex-end;
+    margin-bottom: 40px;
+}
+.txt {
+    margin: 2vw;
+    text-indent: 30px;
+    max-width: 1000px;
+}
+.txt p {
+    margin-bottom: 10px;
+}
+.timeline_heading {
+    display:  flex;
+    justify-content: center;
+}
+@media (min-width: 800px) {
+    .inner_hero_area h1 {
+        max-width:600px;
+    }
+}
