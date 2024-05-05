@@ -3,10 +3,12 @@ import PrevNext from "../components/PrevNext";
 import HeroPages from "../components/Pages_hero_area";
 
 function Forthcoalition(props) {
+    /*
     const style2 = {
         backgroundImage: `url("images/1024px-Tilsitz_1807.jpeg")`,
         backgroundPosition: "center"
     }
+    */
     return (
         <div className="page">
             <HeroPages data={props.data}/>
