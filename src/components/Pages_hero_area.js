@@ -1,7 +1,7 @@
 import React from "react";
 import PrevNext from "../components/PrevNext"
 
-function Hero_pages(props) {
+function HeroPages(props) {
     return (
         <div className="hero_area_pages">
             <div className="left_hero_area">

@@ -1,6 +1,6 @@
 import React from "react";
 import PrevNext from "../components/PrevNext";
-import Hero_pages from "../components/Pages_hero_area";
+import HeroPages from "../components/Pages_hero_area";
 
 function Forthcoalition(props) {
     const style2 = {
@@ -9,7 +9,7 @@ function Forthcoalition(props) {
     }
     return (
         <div className="page">
-            <Hero_pages data={props.data}/>
+            <HeroPages data={props.data}/>
             <h1>{props.data.title}</h1>
             <h4 className="page_date">{props.data.date}</h4>            
             <div className="txt">
