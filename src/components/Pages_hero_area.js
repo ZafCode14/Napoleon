@@ -15,4 +15,4 @@ function HeroPages(props) {
         </div>
     )
 }
-export default Hero_pages
+export default HeroPages
